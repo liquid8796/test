@@ -1,0 +1,18 @@
+{
+  "name": "jarvis-minio-server",
+  "description": "deploy minio to Heroku.",
+  "keywords": ["minio"],
+  "env": {
+    "ACCESS_KEY": {
+       "description": "MINIO_ACCESS_KEY, please change to your access key",
+       "value": "FatRat_080796"
+     }, 
+    "SECRET_KEY": {
+       "description": "MINIO_SECRET_KEY, please change to your secret key",
+       "value": "Qwerty@010521@Bep"
+     }
+  },
+  "website": "https://github.com/liquid8796/jarvis-minio",
+  "repository": "https://github.com/liquid8796/jarvis-minio",
+  "stack": "container"
+ }
