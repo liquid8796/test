@@ -4,4 +4,4 @@ ENV MINIO_ROOT_USER=$ACCESS_KEY
 ENV MINIO_ROOT_PASSWORD=$SECRET_KEY
 
 ENTRYPOINT ["minio"]
-CMD ["server","/data","--address",":$PORT"]
+CMD ["server","/data","--address",":PORT"]
